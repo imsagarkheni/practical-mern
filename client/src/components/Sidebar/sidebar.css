@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sidebar-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 250px;
+    background-color: #1a1a1a;
+    color: #fff;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+.sidebar-nav {
+    padding-left: 20px;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    color: #ccc;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1bbcbc;
+}
+
+.link-text {
+    margin-left: 10px;
+}
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.logout-button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    color: #ccc;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+    color: #fff;
+}
+
+.right-panel {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.page-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: fit-content;
+}
