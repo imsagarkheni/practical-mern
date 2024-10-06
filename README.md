@@ -1,5 +1,7 @@
 MERN Recipe App
+
 Project Overview
+
 This project is a full-stack MERN (MongoDB, Express, React, Node.js) application that provides users with a recipe dashboard. Users can register, log in, view recipes, filter them by ingredients, add them to favorites, view their favorite recipes, and remove them from their favorites. The app also integrates the Spoonacular API to fetch recipe data.
 
 Setup Instructions
@@ -43,62 +45,6 @@ npm start
 
 The server will run on http://localhost:3100. Ensure your MongoDB connection is successful.
 
-
-
-
-Here’s the README.md file based on the details you provided:
-
-MERN Recipe App
-Project Overview
-This project is a full-stack MERN (MongoDB, Express, React, Node.js) application that provides users with a recipe dashboard. Users can register, log in, view recipes, filter them by ingredients, add them to favorites, view their favorite recipes, and remove them from their favorites. The app also integrates the Spoonacular API to fetch recipe data.
-
-Setup Instructions
-Prerequisites
-Ensure you have the following installed on your machine:
-
-Node.js (version >= 14.x)
-MongoDB (running locally or a cloud instance)
-Client Setup
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/mern-recipe-app.git
-Navigate to the client directory and install dependencies:
-
-bash
-Copy code
-cd client
-npm install
-Start the client:
-
-bash
-Copy code
-npm start
-The React app will start on http://localhost:3000 by default.
-
-Server Setup
-Open another terminal and navigate to the server directory:
-
-bash
-Copy code
-cd server
-npm install
-Set up the .env file. Create a .env file in the root of the server directory with the following variables:
-
-bash
-Copy code
-PORT=3100
-MONGO_URI=mongodb://localhost:27017
-APP_LOGIN_AUTH_TOKEN=mernapptestproject
-PASSWORD_ENCRYPTION_SECRET=passwordencryptionmodeon
-SPOONACULAR_API_KEY=4c2dbc6c44a5477rrrrr2a7709277c4398ef7
-Start the server:
-
-bash
-Copy code
-npm start
-The server will run on http://localhost:3100. Ensure your MongoDB connection is successful.
 
 Usage Instructions
 Register: Sign up with your details.
